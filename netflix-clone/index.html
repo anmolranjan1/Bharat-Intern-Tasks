@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix Clone</title>
+  <style>
+    /* CSS styles for the homepage */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+    }
+    
+    .header h1 {
+      margin: 0;
+    }
+    
+    .banner {
+      background-image: url("banner.jpg");
+      background-size: cover;
+      height: 400px;
+    }
+    
+    .banner-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+    
+    .banner-content h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    
+    .banner-content p {
+      font-size: 18px;
+    }
+    
+    .button {
+      display: inline-block;
+      background-color: #e50914;
+      color: #fff;
+      padding: 10px 20px;
+      margin-top: 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    
+    .content-section {
+      padding: 20px;
+    }
+    
+    .content-section h2 {
+      margin-top: 0;
+    }
+    
+    .content-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      margin-top: 20px;
+    }
+    
+    .content-grid img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Netflix Clone</h1>
+  </header>
+  
+  <section class="banner">
+    <div class="banner-content">
+      <h2>Watch Unlimited Movies and TV Shows</h2>
+      <p>Join now to access our extensive library.</p>
+      <a href="#" class="button">Get Started</a>
+    </div>
+  </section>
+  
+  <section class="content-section">
+    <h2>Popular Shows</h2>
+    <div class="content-grid">
+      <img src="show1.jpg" alt="Show 1">
+      <img src="show2.jpg" alt="Show 2">
+      <img src="show3.jpg" alt="Show 3">
+      <img src="show4.jpeg" alt="Show 4">
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <p>&copy; 2023 Netflix Clone. All rights reserved.</p>
+  </footer>
+</body>
+</html>
