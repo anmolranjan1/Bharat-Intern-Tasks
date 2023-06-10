@@ -71,14 +71,16 @@ body {
 .profile-image {
     display: flex;
     justify-content: center;
-  }
-  
-  .profile-img {
-    width: 200px; /* Adjust the width and height as per your requirement */
+}
+
+.profile-img {
+    width: 200px;
+    /* Adjust the width and height as per your requirement */
     height: 200px;
     border-radius: 50%;
-    object-fit: cover; /* This ensures the image fills the circular container */
-  }
+    object-fit: cover;
+    /* This ensures the image fills the circular container */
+}
 
 .cta-button {
     padding: 10px 20px;
@@ -321,4 +323,76 @@ body {
 .image-placeholder img {
     max-width: 100%;
     height: auto;
+}
+
+/* Experience Section */
+#experience {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+}
+
+.job {
+    margin-bottom: 40px;
+}
+
+.job-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.job-company {
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.job-duration {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.job-description {
+    margin-bottom: 5px;
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Licenses and Certifications Section */
+#licenses {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.license {
+    margin-bottom: 40px;
+}
+
+.license-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.license-issuer {
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.license-date {
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.credential-id {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.show-credential {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
