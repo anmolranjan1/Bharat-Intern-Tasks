@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     background-color: #f2f2f2;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #333;
   }
   
   .container {
@@ -24,7 +24,9 @@ body {
     font-weight: bold;
   }
   
-  input[type="number"], input[type="text"], select {
+  input[type="number"],
+  input[type="text"],
+  select {
     width: 200px;
     padding: 5px;
     border: 1px solid #ccc;
@@ -43,6 +45,21 @@ body {
   
   button:hover {
     background-color: #45a049;
+  }
+  
+  .formulas {
+    margin-top: 30px;
+  }
+  
+  .formulas h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .formulas p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
   }
   
   footer {
