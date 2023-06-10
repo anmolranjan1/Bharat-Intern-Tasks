@@ -1,0 +1,268 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Section Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #f2f2f2;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* About Section Styles */
+.about {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Skills Section Styles */
+.skills {
+    padding: 100px 0;
+    background-color: #f2f2f2;
+}
+
+.skills h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.skills li span {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+
+/* Projects Section Styles */
+.projects {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.projects h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.projects .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.project {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 100px 0;
+    background-color: #f2f2f2;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .about h2 {
+        font-size: 24px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .skills h2 {
+        font-size: 24px;
+    }
+
+    .skills li span {
+        width: 80px;
+    }
+
+    .projects h2 {
+        font-size: 24px;
+    }
+
+    .projects .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project h3 {
+        font-size: 20px;
+    }
+
+    .project p {
+        font-size: 16px;
+    }
+
+    .contact h2 {
+        font-size: 24px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+
+    .contact-form button {
+
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}
