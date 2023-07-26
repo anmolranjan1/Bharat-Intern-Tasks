@@ -20,7 +20,6 @@ The Temperature Converter task involves creating a simple website to convert tem
 
 You can preview the Temperature Converter website by visiting the following link: [Temperature Converter Preview](Previews/2.1.png)
 
-
 ## Task 3: Homepage of Netflix
 
 The Homepage of Netflix task aims to recreate a simplified version of Netflix's homepage using HTML and CSS. It replicates the visual design and layout of the original Netflix homepage.
