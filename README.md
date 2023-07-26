@@ -9,7 +9,7 @@ The Portfolio Website task is designed to showcase my personal information and a
 
 ### Preview
 
-You can preview the Portfolio Website by visiting the following link: [Portfolio Website Preview](https://github.com/anmolranjan1/Bharat-Intern-Tasks/blob/main/Previews/preview%201.1.jpg)
+You can preview the Portfolio Website by visiting the following link: [Portfolio Website Preview](Previews/1.1.png)
 
 
 ## Task 2: Temperature Converter
@@ -18,7 +18,7 @@ The Temperature Converter task involves creating a simple website to convert tem
 
 ### Preview
 
-You can preview the Temperature Converter website by visiting the following link: [Temperature Converter Preview](https://github.com/anmolranjan1/Bharat-Intern-Tasks/blob/main/Previews/preview%202.1.jpg)
+You can preview the Temperature Converter website by visiting the following link: [Temperature Converter Preview](Previews/2.1.png)
 
 
 ## Task 3: Homepage of Netflix
@@ -27,7 +27,7 @@ The Homepage of Netflix task aims to recreate a simplified version of Netflix's 
 
 ### Preview
 
-You can preview the Netflix Homepage replica by visiting the following link: [Netflix Homepage Preview](https://github.com/anmolranjan1/Bharat-Intern-Tasks/blob/main/Previews/preview%203.1.jpg)
+You can preview the Netflix Homepage replica by visiting the following link: [Netflix Homepage Preview](Previews/3.1.png)
 
 
 ## Getting Started
